@@ -1,0 +1,86 @@
+/* *{
+    background: #c52525;
+} */
+/* .nav{
+ background: #cf0c0c;
+ display: flex;
+ /* position: relative; */
+ /* flex-wrap: wrap;
+ flex-direction: row;
+ list-style: none; */
+ /* text-align: center;
+} */ 
+/* .nav >ul{
+    background: #1a17c3;
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row-reverse;
+} */
+/* .nav > li{
+    background: white;
+} */
+.nav
+{
+    /* display: flex; */
+    background: bisque;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    /* gap: 20px;
+    flex-direction: row-reverse; */
+    /* display: inline-block; */
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    cursor:all-scroll;
+    /* gap: 20px; */
+    font-weight: 300;
+
+}
+.card_list{
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    /* background: #c00b0b; */
+    box-shadow: 5px 10px 30px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: 0.4s;
+    /* align-items: center; */
+}
+.container{
+    display: flex;
+    width: 500px;
+    height: 150px;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    background: #b51010;
+    overflow-x: scroll;
+    
+}
+.container > div{
+    background: #220cae;
+    color: aliceblue;
+    width: 100px;
+    /* height: 100px; */
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+
+} 
